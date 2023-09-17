@@ -105,7 +105,6 @@ int main() {
         return 1;
     }
 
-//    std::cout << "Final value at address " << std::hex << currentAddress << " is " << std::dec << finalAddressValue << std::endl;
     std::cout << "Current skillpoint value is: " << std::dec << finalAddressValue << "\n" << std::endl;
 
     // Define the new value you want to write to the final value address
@@ -123,7 +122,6 @@ int main() {
         return 1;
     }
 
-//    std::cout << "Value at address " << std::hex << currentAddress << " changed to " << std::dec << newValue << std::endl;
     std::cout << "\nDone!\nSkillpoint value changed to: " << std::dec << newValue << std::endl;
 
     std::cout << "\nCreated by: Olaf van Midden\n" << std::endl;
