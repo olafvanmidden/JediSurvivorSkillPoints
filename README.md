@@ -5,7 +5,7 @@ Download the .exe in releases.
 
 Launch as administrator.
 
-Updated and works after 8 Patch!
+Updated and works after 9 Patch!
 
 Download JediSurvivorSkillPoints.exe and run as administrator.
 
@@ -14,4 +14,4 @@ Always check if current value = your actual value in game.
 
 Spend skillpoints after modifying value so it saves correctly.
 
-You could get a false positive from your antivirus because it directly reads and modifies memory using ReadProcessMemory and WriteProcessMemory. You can check the sourcecode and compile the program for yourself if you dont trust the .exe file provided.
+You could get a false positive from your antivirus because it directly reads and modifies memory using ReadProcessMemory and WriteProcessMemory. You can check the sourcecode and compile the program for yourself if you don't trust the .exe file provided.

@@ -71,13 +71,13 @@ int main() {
     }
 
     // Define startPointer
-    uintptr_t startPointer = 0x063F1370;
+    uintptr_t startPointer = 0x0650E0F0;
 
     // Define the dynamic address of the pointer chain in the target process by combining the baseAdress and startPointer
     uintptr_t dynamicAddress = baseAddress + startPointer;
 
     // Define the offsets to follow in the pointer chain
-    std::vector<int> pointerOffsets = {0x0, 0x20, 0x20, 0x98, 0xD8, 0x428, 0x164};
+    std::vector<int> pointerOffsets = {0x610, 0x410, 0x818, 0x5C8, 0x20, 0x428, 0x164};
 
     // Define a variable to store the final value in final address
     int finalAddressValue = 0;
