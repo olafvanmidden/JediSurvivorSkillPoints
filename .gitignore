@@ -1,6 +1,4 @@
+.vscode/
+build/
 
-.idea/
-
-CMakeLists.txt
-
-cmake-build-debug/
+main.exe
